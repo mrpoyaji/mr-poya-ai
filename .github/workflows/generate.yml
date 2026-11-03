@@ -21,13 +21,20 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
+          set -e
+
           mkdir -p output
+
+          if [ -z "$GEMINI_API_KEY" ]; then
+            echo "ERROR: GEMINI_API_KEY secret is missing."
+            exit 1
+          fi
 
           PROMPT=$(cat <<'EOF'
           You are the professional documentary scriptwriter
           for MR POYA AI, a worldwide English YouTube channel.
 
-          Choose one fascinating and engaging topic from:
+          Choose one fascinating topic from:
           Science & Hidden World, Human Psychology, Space & Universe,
           Future Technology, Ancient History, Human Body Science.
 
@@ -46,36 +53,58 @@ jobs:
 
           Do not invent facts, statistics, quotes or source URLs.
           Clearly mark claims that need fact-checking.
-          Make the content original, educational and engaging.
+          Make content original, educational and engaging.
           Return the result in clean Markdown.
           EOF
           )
 
           jq -n --arg prompt "$PROMPT" \
-            '{contents:[{parts:[{text:$prompt}]}],
-            generationConfig:{temperature:0.8,maxOutputTokens:8192}}' \
-            > request.json
+            '{
+              contents: [{parts: [{text: $prompt}]}],
+              generationConfig: {
+                temperature: 0.8,
+                maxOutputTokens: 8192
+              }
+            }' > request.json
 
-          curl -sS \
-  --retry 5 \
-  --retry-all-errors \
-  --retry-max-time 180 \
-  "https://generativelanguage.googleapis.com/..."
+          echo "Connecting to Gemini API..."
+
+          if ! HTTP_STATUS=$(curl -sS \
+            --retry 5 \
+            --retry-all-errors \
+            --retry-max-time 180 \
+            -o response.json \
+            -w "%{http_code}" \
             "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent" \
             -H "x-goog-api-key: $GEMINI_API_KEY" \
-            -H "Content-Type: application/json" \^
-            -d @request.json > response.json
-            echo "Gemini API Response:"
-cat response.json
+            -H "Content-Type: application/json" \
+            -d @request.json); then
 
-          jq -r '[.candidates[0].content.parts[]?.text] | join("\n")' \
-            response.json > output/latest-script.md
+            echo "ERROR: Gemini connection failed."
+            cat response.json || true
+            exit 1
+          fi
 
-          if [ ! -s output/latest-script.md ]; then
-            echo "Gemini returned an empty response."
+          echo "Gemini HTTP Status: $HTTP_STATUS"
+
+          if [[ ! "$HTTP_STATUS" =~ ^2[0-9][0-9]$ ]]; then
+            echo "ERROR: Gemini API returned an error."
             cat response.json
             exit 1
           fi
+
+          echo "Checking Gemini response..."
+
+          jq -r '[.candidates[]?.content.parts[]?.text // empty] | join("\n")' \
+            response.json > output/latest-script.md
+
+          if [ ! -s output/latest-script.md ]; then
+            echo "ERROR: Gemini returned an empty response."
+            cat response.json
+            exit 1
+          fi
+
+          echo "Content generated successfully."
 
           rm -f request.json response.json
 
@@ -83,6 +112,12 @@ cat response.json
         run: |
           git config user.name "MR POYA AI"
           git config user.email "actions@github.com"
+
           git add output/latest-script.md
-          git diff --cached --quiet || git commit -m "Generate daily AI content"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "No new changes to save."
+          else
+            git commit -m "Generate daily AI content"
+            git push
+          fi
