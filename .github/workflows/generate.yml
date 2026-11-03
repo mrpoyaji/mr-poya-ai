@@ -56,7 +56,7 @@ jobs:
             generationConfig:{temperature:0.8,maxOutputTokens:8192}}' \
             > request.json
 
-          curl --fail-with-body -sS \
+          curl -sS \
   --retry 5 \
   --retry-all-errors \
   --retry-max-time 180 \
