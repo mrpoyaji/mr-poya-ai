@@ -57,9 +57,13 @@ jobs:
             > request.json
 
           curl --fail-with-body -sS \
+  --retry 5 \
+  --retry-all-errors \
+  --retry-max-time 180 \
+  "https://generativelanguage.googleapis.com/..."
             "https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash:generateContent" \
             -H "x-goog-api-key: $GEMINI_API_KEY" \
-            -H "Content-Type: application/json" \
+            -H "Content-Type: application/json" \^
             -d @request.json > response.json
 
           jq -r '[.candidates[0].content.parts[]?.text] | join("\n")' \
