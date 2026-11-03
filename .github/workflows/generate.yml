@@ -93,7 +93,7 @@ jobs:
             exit 1
           fi
 
-          echo "Checking Gemini response..."
+                    echo "Checking Gemini response..."
 
           jq -r '[.candidates[]?.content.parts[]?.text // empty] | join("\n")' \
             response.json > output/latest-script.md
@@ -108,7 +108,7 @@ jobs:
 
           rm -f request.json response.json
 
-                  - name: Save generated content
+      - name: Save generated content
         run: |
           git config user.name "MR POYA AI"
           git config user.email "actions@github.com"
