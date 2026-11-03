@@ -108,7 +108,7 @@ jobs:
 
           rm -f request.json response.json
 
-            - name: Save generated content
+                  - name: Save generated content
         run: |
           git config user.name "MR POYA AI"
           git config user.email "actions@github.com"
