@@ -1,97 +1,98 @@
 # MR POYA AI | Documentary Production Script
 
-**Topic:** Space & Universe  
-**Title:** What Happens If Earth Falls Into a Black Hole?  
-**Suggested Thumbnail Text:** WHAT IF EARTH FELL IN?  
+**Topic:** Human Psychology  
+**Title:** The Invisible Architects: How Subliminal Framing Controls Every Choice You Make  
+**Target Duration:** ~3 to 4 minutes  
+**Suggested Thumbnail Text:** YOU ARE BEING CONTROLLED  
 
 ---
 
-## 1. Powerful 5-Second Hook
-*(Visual: Earth reflecting on the event horizon of a swirling, colossal black hole.)*  
-**Narration:** In just a few hours, everything you know, love, and remember would be stretched into a single, invisible line of atoms. 
+## 1. Powerful 5-second Hook
+*(Visual: A close-up of a human eye blinking in ultra-slow motion, the iris reflecting rapidly flashing digital numbers and shadow shapes.)*  
+**Audio (Voiceover):** Right now, before you even realize it, someone else is deciding what you will buy, what you will believe, and who you will love. 
 
 ---
 
-## 2. Full Narration Script & Cinematic Breakdown
+## 2. Full Narration Script (Simple & Natural English)
 
-### Scene 1
-* **Visual:** A peaceful, glowing blue Earth spinning silently in the vast blackness of space, dotted with city lights.
-* **Camera Movement:** Slow, smooth push-in toward North America.
-* **Transition:** Hard cut.
-* **Image Generation Prompt:** Cinematic view of planet Earth from space at night, showing city lights, realistic atmosphere, 8k resolution, photorealistic.
-* **Narration:** Imagine Earth, our blue sanctuary, suddenly set on a direct collision course with a stellar-mass black hole. From the surface, life goes on as normal—for now. But the sky is changing.
+**[Scene 1]**  
+Look around the room you are sitting in right now. You chose the clothes you’re wearing. You chose to click on this video. Or did you? Modern behavioral science reveals a startling truth: the conscious mind is not the captain of the ship. It is merely a passenger, inventing logical reasons for decisions that were made milliseconds before you were aware of them.
 
-### Scene 2
-* **Visual:** A massive, starless void appearing in the night sky, slowly bending and warping the starlight around it like a giant glass lens.
-* **Camera Movement:** Tilt up from a dark forest landscape to the distorted night sky.
-* **Transition:** Smooth cross-dissolve.
-* **Image Generation Prompt:** A black hole distorting the starry night sky with a gravitational lensing effect, scientific accuracy, cinematic lighting, ultra-detailed.
-* **Narration:** *(Fact-Check Needed: Gravitational lensing visibility from Earth's surface)* As it approaches from the outer solar system, astronomers notice strange ripples in starlight. The black hole is invisible, betrayed only by its cosmic shadow.
+**[Scene 2]**  
+Welcome to the hidden architecture of human choice. At the center of this mechanism is priming—a phenomenon where subconscious cues drastically alter our outward behavior. In a famous behavioral study, researchers asked participants to unscramble sentences containing words related to elderly people, words like *Florida*, *bingo*, and *wrinkle*. Afterward, without realizing why, those participants walked down the hallway significantly slower than the control group. Their brains had quietly stepped into the role of age.
 
-### Scene 3
-* **Visual:** Towering ocean waves crashing violently onto coastlines under a pitch-black, distorted sky. 
-* **Camera Movement:** Low-angle tracking shot moving backward as a massive wave approaches.
-* **Transition:** Fast whip pan to the right.
-* **Image Generation Prompt:** Dramatic coastal scene with gigantic tidal waves, stormy skies, gravitational anomaly, cinematic Hollywood style.
-* **Narration:** Then comes the first real terror: extreme tides. Long before we cross the point of no return, the black hole's gravitational pull stretches our oceans, drowning entire continents.
+**[Scene 3]**  
+This isn't just about walking speed. It extends to high-stakes decisions, including courtroom justice. Studies analyzing parole boards have shown that judges are significantly more likely to grant parole right after a morning food break, and significantly more likely to deny it just before lunch. Mental fatigue leads to a default, conservative bias. The human legal system—the pinnacle of rational thought—can be swayed by a drop in blood sugar.
 
-### Scene 4
-* **Visual:** The glowing accretion disk of the black hole filling half the sky, casting eerie orange and red light across a fractured landscape.
-* **Camera Movement:** Drone shot pulling up and away, revealing the sheer scale of the approaching monster.
-* **Transition:** Glitch cut.
-* **Image Generation Prompt:** A massive black hole with a bright glowing accretion disk dominating the daytime sky, apocalyptic sci-fi realism.
-* **Narration:** By the time Earth crosses the event horizon—the absolute boundary where even light cannot escape—our planet is no longer a sphere. It is beginning to warp.
+**[Scene 4]**  
+Why does our brain surrender control so easily? Evolutionary biology provides the answer. Every second, our senses are bombarded with roughly eleven million pieces of raw data. Our conscious mind can only process about forty of them. To prevent total system overload, the brain relies on cognitive shortcuts, or heuristics. It takes shortcuts to keep us alive, but those exact same shortcuts make us profoundly predictable—and exploitable.
 
-### Scene 5
-* **Visual:** A 3D scientific visualization of a solid sphere being stretched vertically and compressed horizontally like a rubber band.
-* **Camera Movement:** Orbital rotation around the deforming object.
-* **Transition:** Smooth zoom-in through the object.
-* **Image Generation Prompt:** Scientific 3D rendering of gravitational tidal forces stretching a planet, spaghettification effect, dark space background.
-* **Narration:** Physicists call this "spaghettification." The gravitational pull at Earth's near side is so much stronger than on its far side that our planet is pulled apart into a thin stream of elemental debris.
+**[Scene 5]**  
+Think about the last time you bought a product simply because the label was colored green, or walked into a store because ambient music made you feel nostalgic. Designers, marketers, and architects use these hidden psychological levers every single day. They do not force your hand; they simply design an environment where your hand naturally reaches for what they want.
 
-### Scene 6
-* **Visual:** Inside the event horizon, looking back at a shrinking, distorted window of the universe we left behind, framed by a ring of pure light.
-* **Camera Movement:** Slow, dizzying forward drift into absolute darkness.
-* **Transition:** Fade to black.
-* **Image Generation Prompt:** Inside a black hole looking out through the event horizon, distorted light ring, surreal cosmic geometry, 8k.
-* **Narration:** If you could somehow survive the trip—which you couldn't—you would look back and see the entire history of the outside universe flashing by in fast forward, compressed into a single, brilliant ring of light.
-
-### Scene 7
-* **Visual:** A single strand of glowing atomic particles spiraling down into an infinitely bright, infinitely small point of absolute blackness.
-* **Camera Movement:** Continuous forward plunge matching the speed of the particles.
-* **Transition:** Hard cut to silence.
-* **Image Generation Prompt:** Conceptual art of matter falling into a singularity at the center of a black hole, glowing particles, extreme depth.
-* **Narration:** Finally, all matter converges at the singularity. Space and time cease to have meaning. Earth becomes nothing more than a microscopic addition to the black hole's growing mass.
-
-### Scene 8
-* **Visual:** The black hole pulsing slightly with a burst of Hawking radiation, radiating faint energy back into the silent, empty universe.
-* **Camera Movement:** Slow pull-back to show the lonely black hole drifting in deep space.
-* **Transition:** Slow fade to black.
-* **Image Generation Prompt:** A solitary black hole emitting faint Hawking radiation in the distant cold universe, cosmic loneliness, cinematic masterpiece.
-* **Narration:** In the grand scale of the cosmos, worlds vanish in the blink of an eye. But don't worry—the nearest known black hole is over one thousand light-years away. For now, Earth remains safe in the dark.
+**[Scene 6]**  
+Does free will exist, or are we simply living out algorithms written by our environment? The answer lies not in despair, but in awareness. By shining a light on the invisible architecture of priming and cognitive bias, we reclaim our autonomy. The next time you make a sudden choice, pause and ask yourself: *Did I choose this, or was I gently pushed?*
 
 ---
 
-## 3. YouTube Shorts Ideas (3 Concepts)
+## 3. Cinematic Visual Scenes, Prompts, and Camera Directions
 
-1. **Short 1: The Last Sunset**
-   * *Concept:* A 50-second visual breakdown of what the Sun would look like as it gets sucked into a black hole before Earth does.
-   * *Visual Style:* Fast-paced, hyper-realistic animations with a ticking countdown clock on screen.
-2. **Short 2: Spaghettification in 30 Seconds**
-   * *Concept:* Explaining why gravity tears objects into noodles, using a simple household analogy (like pulling a piece of gum).
-   * *Visual Style:* Split-screen: real-world physics experiment on the left, space simulation on the right.
-3. **Short 3: Can We Survive a Black Hole?**
-   * *Concept:* Directly answering if humans could pass through a supermassive black hole and enter a wormhole (spoiler: no).
-   * *Visual Style:* Dynamic kinetic typography paired with deep-space imagery.
+### Scene 1: The Illusion of Choice
+* **Visual:** Macro shot of a human iris reflecting changing neon store signs and a digital clock ticking backward.
+* **Camera Movement:** Slow push-in on the pupil; match cut transition.
+* **Image Generation Prompt:** `Cinematic macro shot of a human eye, intricate iris details reflecting glowing neon light and fast-moving digital numbers, dark moody lighting, hyper-realistic, 8k resolution, photorealistic --ar 16:9`
+
+### Scene 2: The Priming Experiment
+* **Visual:** A vintage hallway with warm lighting, where a ghostly silhouette of an elderly person slowly walks away, leaving fading word fragments in the air like *bingo* and *wrinkle*.
+* **Camera Movement:** Tracking shot moving backward at the exact speed of the walking figure; fade transition.
+* **Image Generation Prompt:** `A moody, cinematic hallway in a 1970s university building, warm amber lighting, floating translucent typography words like 'bingo' and 'wrinkle' in the air, mysterious atmosphere, photorealistic --ar 16:9`
+
+### Scene 3: The Scales of Justice
+* **Visual:** A modern court bench bathed in dramatic shadow and light. A gavel rests on a wooden desk next to a glowing, half-eaten apple, symbolizing the impact of physical state on decisions.
+* **Camera Movement:** Dutch angle pan from left to right; whip pan transition.
+* **Image Generation Prompt:** `Dramatic cinematic shot of a modern empty courtroom bench, harsh theatrical lighting casting long shadows, a wooden gavel and a fresh apple on the desk, high contrast, professional cinematography --ar 16:9`
+
+### Scene 4: The Data Flood
+* **Visual:** A vast abstract storm of glowing digital numbers and sensory inputs rushing toward a translucent, glowing human silhouette.
+* **Camera Movement:** Fast forward tracking shot through a tunnel of data; smooth cross-dissolve.
+* **Image Generation Prompt:** `Abstract conceptual art of a translucent human silhouette standing in a massive storm of glowing binary code and data streams, dark blue and gold color palette, cinematic sci-fi style, 8k --ar 16:9`
+
+### Scene 5: The Commercial Maze
+* **Visual:** A top-down drone view of a brightly lit supermarket aisle at night. Shoppers move like tiny colored dots along precise grid lines.
+* **Camera Movement:** High-angle crane shot descending slowly; match cut transition.
+* **Image Generation Prompt:** `Top-down cinematic bird's-eye view of a modern brightly lit supermarket aisle at night, minimalist aesthetic, symmetric rows of products, moody and clean cinematic lighting --ar 16:9`
+
+### Scene 6: The Awakening of Free Will
+* **Visual:** A person standing at a crossroads in a misty forest at dawn, looking up as the heavy fog begins to part, revealing a bright morning sky.
+* **Camera Movement:** Slow crane shot rising up from behind the subject into an open sky; fade to black.
+* **Image Generation Prompt:** `Cinematic wide shot of a person standing at a fork in a road inside a misty pine
+ forest at sunrise, golden sun rays piercing through the fog, hopeful and inspiring atmosphere, photorealistic --ar 16:9`
 
 ---
 
-## 4. Research Notes & Verification Sources
+## 4. YouTube Shorts Ideas (From the Same Topic)
 
-* **Claim 1 (Spaghettification):** Tidal forces exerted by a black hole stretch objects vertically and compress them horizontally due to the inverse-square law of gravity. 
-  * *Verification:* Verified via standard general relativity principles. *(Fact-Check Needed: The exact distance from a stellar-mass vs. supermassive black hole where spaghettification begins for a rocky planet).*
-* **Claim 2 (Gravitational Lensing):** Massive objects bend light, creating warped visual distortions of background stars.
-  * *Verification:* Directly observed by NASA's Hubble and James Webb Space Telescopes around massive galaxy clusters and black holes.
-* **Reliable Sources for Reference:**
-  * NASA Science: Black Holes Overview ([nasa.gov](https://science.nasa.gov/universe/black-holes/))
-  * European Space Agency (ESA): Physics of Spaghettification ([esa.int](https://www.esa.int/))
+1. **Short 1: The Lunchtime Justice Trap**
+   * *Hook:* Want to win a court case? Never schedule it before lunch.
+   * *Content:* Quick explanation of the Israeli parole board study showing how judges give fewer paroles when hungry.
+   * *Visual Style:* Fast-paced text overlays with split-screen footage of a courtroom clock and a ticking timer.
+2. **Short 2: The Walking Speed Hack**
+   * *Hook:* Just reading this word will literally make you walk slower.
+   * *Content:* Explain John Bargh’s elderly-priming experiment in 30 seconds.
+   * *Visual Style:* Dynamic kinetic typography zooming across the screen.
+3. **Short 3: Eleven Million Bits of Data**
+   * *Hook:* Your brain is lying to you 99.9% of the time.
+   * *Content:* Contrast the 11 million bits of sensory input we receive with the 4 bits our conscious mind actually handles.
+   * *Visual Style:** Sci-fi data visualization showing a massive firewall filtering information into a tiny beam of light.
+
+---
+
+## 5. Research Notes & Source Verification
+
+* **Claim Verification Status:** 
+  * *Claim 1 (The Elderly Priming Study):* Verified concept. Conducted by psychologist John Bargh at New York University in 1996 regarding behavioral priming and walking speed (*Journal of Personality and Social Psychology*). *(Note: Replicability of subtle priming effects has been a point of ongoing scientific debate in modern psychology; present as a classic psychological study on cognitive framing rather than an absolute biological law).*
+  * *Claim 2 (Parole Decisions and Hunger):* Verified concept. Referenced from the 2011 study by Shai Danziger, Jonathan Levav, and Liora Avnaim-Pessoa published in the *Proceedings of the National Academy of Sciences (PNAS)* regarding judicial rulings and food breaks.
+  * *Claim 3 (Sensory Processing Capacity):* Verified concept. Based on cognitive science estimates by researchers like Timothy Wilson (*Strangers to Ourselves: Discovering the Adaptive Unconscious*), stating the human mind processes millions of bits unconsciously while conscious bandwidth is severely limited.
+* **Reliable Sources to Verify:**
+  * *Proceedings of the National Academy of Sciences (PNAS)* – Study on judicial decision-making and physiological states.
+  * *American Psychological Association (APA)* – Archives on cognitive heuristics, priming, and Daniel Kahneman’s research (*Thinking, Fast and Slow*).
